@@ -1,0 +1,52 @@
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  color:  linear-gradient(179.88deg, #011B53 -143.82%, #063DB5 226.52%);
+
+}
+
+#navbarDropdown {
+    color: #011B53
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+    
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+.icon {
+    font-size: 35px;
+}
+
+.topNav {
+  border-bottom: 1px solid lightgray;
+}
+
+.intro {
+  background: #EA44441A;
+  border-radius: 12px;
+  
+}
+
+.content-bg {
+  background: rgba(189, 195, 199, 0.2);
+}
+
+@media (min-width: 768px) {
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+}
+
