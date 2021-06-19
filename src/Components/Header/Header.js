@@ -9,7 +9,7 @@ const Header=()=>{
         <header className="navbar navbar-expand-sm bg-light">
         <div className=" navbar-brand logo">
         <img src={Logo} width="27px" /> 
-        {/* its a comment */}
+        
         </div>
         {/* <div className="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
