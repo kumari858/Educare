@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiOutlineAlignRight, IoNotificationsOutline, IoIosArrowDown, BiUser, FiLogOut, MdClass, FaUserFriends, IoMdCopy } from 'react-icons/all';
 import images from '../images/userimg.jpg';
+import Dropdown from 'react-bootstrap/Dropdown'
 import Sidebar from '../Sidebar/Sidebar';
 import './Dashboard.css';
 
@@ -27,11 +28,23 @@ export default function Dashboard() {
                                 <a className="d-flex flex-column ml-3 h5 fw-bold" href="/" id="navbarDropdown"> Direction Educare
                                 <span>Admin</span>
                                 </a>
-                                <IoIosArrowDown className="d-flex ml-2 icon" />
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="/"><BiUser />My Profile</a></li>
-                                    <li><a className="dropdown-item" href="/"><FiLogOut />Logout</a></li>
+                                <Dropdown>
+                                <Dropdown.Toggle variant= "none" id="dropdown-basic">
+                
+                                </Dropdown.Toggle>
+                                  <Dropdown.Menu>
+                                   <Dropdown.Item href="#/Profile"><BiUser />My Profile</Dropdown.Item>
+                                   <Dropdown.Item href="#/Logout"><FiLogOut />Logout</Dropdown.Item>
+                                </Dropdown.Menu>
+                                </Dropdown>
+                                {/* <div className="dropdown">
+                                <IoIosArrowDown className="d-flex ml-2 icon dropdown-toggle" data-toggle="dropdown" />
+                                <span className="caret"></span>
+                                <ul className="dropdown-menu" >
+                                    <li><a  href="#"><BiUser />My Profile</a></li>
+                                    <li><a  href="#"><FiLogOut />Logout</a></li>
                                 </ul>
+                                </div> */}
                             </li>
                         </ul>
                     </div>

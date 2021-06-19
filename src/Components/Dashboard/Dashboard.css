@@ -38,6 +38,9 @@
 .content-bg {
   background: rgba(189, 195, 199, 0.2);
 }
+.des{
+  background-color: azure;
+}
 
 @media (min-width: 768px) {
     #page-content-wrapper {

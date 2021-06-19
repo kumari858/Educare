@@ -1,4 +1,4 @@
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route , Switch } from 'react-router-dom';
 import './App.css';
 import Footer from './Components/Footer/footer';
 import Header from './Components/Header/Header';
@@ -11,6 +11,7 @@ function App() {
       <BrowserRouter>
       <Header />
       <Dashboard />
+      
         {/* <Route path="/" exact component={Sidebar} /> */}
         {/* <Route path="/dashboard" exact component={Dashboard} /> */}
         <Footer />
