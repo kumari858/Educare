@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineAlignRight, IoNotificationsOutline, IoIosArrowDown, BiUser, FiLogOut, MdClass, FaUserFriends, IoMdCopy } from 'react-icons/all';
 import images from '../images/userimg.jpg';
-import Dropdown from 'react-bootstrap/Dropdown'
+import Dropdown from 'react-bootstrap/Dropdown';
 import Sidebar from '../Sidebar/Sidebar';
 import './Dashboard.css';
 

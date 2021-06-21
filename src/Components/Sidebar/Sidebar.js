@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 export default function Sidebar() {
 
     return (
-    <div >
-        <div className="secondary-bg" id="sidebar-wrapper">
+    <div className='d-flex flex-row mh-75'>
+        <div className="secondary-bg " id="sidebar-wrapper">
         <div className="sidebar-heading d-flex justify-content-around align-items-center text-center py-4 secondary-text">
           KenDEL <IoIosArrowBack />
         </div>
